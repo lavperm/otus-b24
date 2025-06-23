@@ -1,3 +1,5 @@
 /bitrix/*
-/.idea
-/upload/
+/.idea/*
+/upload/*
+*.txt
+/vendor/
