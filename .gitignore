@@ -2,7 +2,5 @@
 /.idea/*
 /upload/*
 *.txt
-<<<<<<< HEAD
-=======
 /vendor/
->>>>>>> 9ebb69cc2ca5a15208d517619efd6529505cb562
+/Otus/Debug/
