@@ -4,5 +4,7 @@
 *.txt
 /vendor/
 /Otus/Debug/
+/otus-docker/
+
 
 
