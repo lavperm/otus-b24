@@ -1,23 +1,9 @@
 <?php
 require ($_SERVER["DOCUMENT_ROOT"] . '/bitrix/header.php');
 $APPLICATION->SetTitle(title: "Новая Страница");
-//require  '/home/c/ck55016/public_html/local/App/Debug/Log.php' ;
-/*
-print_r('<pre>');
-print_r('$_SERVER: ');
-print_r($_SERVER);
-print_r("</pre>");*/
+use \App\Debug\LogTest;
 
-/*print_r('<pre>');
-print_r('$_SERVER: ');
-print_r(var_dump($_SERVER));
-print_r("</pre>");*/
-
-//dump($_SERVER);
-// sage($_SERVER);  //КАК подключить
-
-
-//\App\Debug\Log::addLog('Открыта страница index.php');// кастомное логирование
+LogTest::addLog('Открыта стран111ица index.php');// кастомное логирование
 Bitrix\Main\Diag\Debug::startTimeLabel('TestTime');
 
 //Bitrix\Main\Diag\Debug::writeToFile($_SERVER,$varName = '$_SERVER  '.date('Y-m-d H:i:s', $_SERVER['REQUEST_TIME']), $fileName = 'qwe');

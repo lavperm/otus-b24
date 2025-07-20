@@ -4,7 +4,11 @@
 *.txt
 /vendor/
 /Otus/Debug/
-/otus-docker/
 
 
+
+
+
+/Otus/lesson/
+/.settings_extra.php
 
