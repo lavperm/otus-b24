@@ -1,15 +1,13 @@
 <?php
 
-use Bitrix\BIConnector\Configuration\Feature;
-use Bitrix\Intranet\Settings\Tools\ToolsManager;
-use Bitrix\Main\Loader;
+require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
 
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+use Bitrix\BIConnector\Configuration\Feature;
+use Bitrix\Main\Loader;
 
 /**
  * @var CMain $APPLICATION
  */
-
 if (
 	!Loader::includeModule('biconnector')
 	|| !method_exists('\Bitrix\BIConnector\Configuration\Feature', 'isExternalEntitiesEnabled')
@@ -17,13 +15,6 @@ if (
 )
 {
 	LocalRedirect('/');
-}
-elseif (
-	Loader::includeModule('intranet')
-	&& !ToolsManager::getInstance()->checkAvailabilityByToolId('crm_bi')
-)
-{
-	LocalRedirect('/bi/dashboard/');
 }
 else
 {
@@ -53,4 +44,4 @@ else
 	);
 }
 
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
+require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php');

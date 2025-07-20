@@ -13,10 +13,10 @@ $log_text = date('Y-m-d H:i:s') ;
 Debug::writeToFile($log_text,$Separator, $fileName = $logFile);
 //----------------------------------------------------------------
 
-dump($Separator);
+
 $val = 0;
 $eee= 10/$val;
 
-throw new Exception('Тестовая ошибка',666);
+//throw new Exception('Тестовая ошибка',666);
 
 
