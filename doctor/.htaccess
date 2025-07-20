@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+=======
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+>>>>>>> 2e249eeb5fe162bcd762161c55b3434c52fcbf71
 RewriteRule ^(.*)$ index.php?path=$1 [NC,L,QSA]
