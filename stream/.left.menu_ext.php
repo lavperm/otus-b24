@@ -12,7 +12,3 @@ if (defined('AIR_SITE_TEMPLATE') && File::isFileExists($collaborationMenu))
 {
 	include($collaborationMenu);
 }
-else
-{
-	$aMenuLinks = [];
-}

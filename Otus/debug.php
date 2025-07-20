@@ -14,9 +14,9 @@ Debug::writeToFile($log_text,$Separator, $fileName = $logFile);
 //----------------------------------------------------------------
 
 
-/*$val = 0;
-$eee= 10/$val;*/
+$val = 0;
+$eee= 10/$val;
 
-throw new Exception('Тестовая ошибка',666);
+//throw new Exception('Тестовая ошибка',666);
 
 

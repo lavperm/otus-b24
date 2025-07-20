@@ -1,0 +1,53 @@
+[OTUS]  2025-06-29 15:12:29 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Exception] 
+Тестовая ошибка (666)
+/home/c/ck55016/public_html/Otus/debug.php:20
+----------
+
+[OTUS]  2025-06-29 15:12:58 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Exception] 
+Тестовая ошибка (666)
+/home/c/ck55016/public_html/Otus/debug.php:20
+----------
+
+[OTUS]  2025-06-29 15:13:00 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Exception] 
+Тестовая ошибка (666)
+/home/c/ck55016/public_html/Otus/debug.php:20
+----------
+
+-------Домашнее задание №2-2-------------:
+[OTUS] [2025-06-29 15:24:50] Ошибка: Тестовая ошибка (666)
+/home/c/ck55016/public_html/Otus/debug.php:20
+
+-------Домашнее задание №2-2-------------:
+[OTUS] [2025-06-29 15:24:53] Ошибка: Тестовая ошибка (666)
+/home/c/ck55016/public_html/Otus/debug.php:20
+
+[OTUS]  2025-06-29 15:25:32 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Exception] 
+Тестовая ошибка (666)
+/home/c/ck55016/public_html/Otus/debug.php:20
+----------
+
+[OTUS]  2025-06-29 15:25:36 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Exception] 
+Тестовая ошибка (666)
+/home/c/ck55016/public_html/Otus/debug.php:20
+----------
+
+[OTUS]  2025-06-29 15:29:51 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/c/ck55016/public_html/Otus/debug.php:18
+----------
+
+[OTUS]  2025-06-29 15:29:55 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/c/ck55016/public_html/Otus/debug.php:18
+----------
+
+[OTUS]  2025-07-02 09:43:52 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/c/ck55016/public_html/Otus/debug.php:18
+----------
+
+[OTUS]  2025-07-02 09:44:36 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [DivisionByZeroError] 
+Division by zero (0)
+/home/c/ck55016/public_html/Otus/debug.php:18
+----------
+
