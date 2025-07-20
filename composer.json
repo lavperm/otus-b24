@@ -6,7 +6,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "local/App/"
+            "App\\": "local/App/",
+            "Models\\": "local/App/Models/"
         }
     }
 }

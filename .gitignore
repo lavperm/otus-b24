@@ -4,4 +4,5 @@
 *.txt
 /vendor/
 /Otus/Debug/
-
+/Otus/lesson/
+/.settings_extra.php
