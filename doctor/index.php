@@ -4,6 +4,8 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle('Врачи');
 $APPLICATION->SetAdditionalCSS('/doctor/style.css');
 use Bitrix\Iblock\IblockTable;
+use Bitrix\Main\Loader;
+Loader::includeModule('iblock');
 
 $baseUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http")
 	. "://$_SERVER[HTTP_HOST]$_SERVER[PHP_SELF]";
@@ -116,16 +118,16 @@ if (!$docId && !$ActionDoctor  ) {
 			'ID',
 			'NAME',
 			'PROCEDURES_MULTI.ELEMENT.NAME',
-			//'SPECIALIZATION_MULTI.ELEMENT.NAME',
-			//'SPECIALIZATION_MULTI.ELEMENT.NOTES',
+			'SPECIALIZATION_MULTI.ELEMENT.NAME',
+			'SPECIALIZATION_MULTI.ELEMENT.NOTES',
 			'SPECIALIZATION_ONE.ELEMENT.NAME'
 		], 'count_total' => true,
 		'filter' => [
-			//'ID' => $docId,
 			'ACTIVE' => 'Y',
-		],
+			],
 	])
 		->fetchCollection();
+	dump($doctors);
 	?>
 
 	<div  class="two-columns-60-40" >
