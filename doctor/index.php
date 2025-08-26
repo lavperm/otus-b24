@@ -118,8 +118,9 @@ if (!$docId && !$ActionDoctor  ) {
 			'ID',
 			'NAME',
 			'PROCEDURES_MULTI.ELEMENT.NAME',
-			//'SPECIALIZATION_MULTI.ELEMENT.NAME',  //!!!!!!!!!!!!!!!!!!!!!!!!
-			//'SPECIALIZATION_MULTI.ELEMENT.NOTES', //!!!!!!!!!!!!!!!!!!!!!!
+			'SPECIALIZATION_MULTI.ELEMENT.NAME',
+			'SPECIALIZATION_MULTI.ELEMENT.NOTES',
+
 			'SPECIALIZATION_ONE.ELEMENT.NAME'
 		], 'count_total' => true,
 		'filter' => [

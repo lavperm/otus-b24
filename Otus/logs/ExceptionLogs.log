@@ -51,3 +51,244 @@ Division by zero (0)
 /home/c/ck55016/public_html/Otus/debug.php:18
 ----------
 
+[OTUS]  2025-07-20 12:32:54 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `ELEMENT_ID` (SPECIALIZATION_MULTI.ELEMENT_ID) for \Bitrix\Iblock\Elements\IblockProperty68 Entity. (100)
+/home/c/ck55016/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ck55016/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
+#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
+	/home/c/ck55016/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
+#2: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ck55016/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#3: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ck55016/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/c/ck55016/public_html/doctor/index.php:114
+----------
+
+[OTUS]  2025-07-20 13:31:57 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:33:24 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:35:34 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:3
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:42:35 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:5
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:42:39 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:5
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:46:49 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected fully qualified name "\Bitrix\Iblock\Elements", expecting "{" (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: require_once
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:47:09 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected fully qualified name "\Bitrix\Iblock\Elements", expecting "{" (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: require_once
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:47:21 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:5
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:47:49 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:47:53 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:48:13 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected variable "$doctors" (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: require_once
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:48:32 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 13:50:26 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 14:16:54 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token "]" (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:7
+#0: require_once
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 14:17:21 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 14:24:33 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 14:24:55 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Loader" not found (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 14:25:09 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getSql() on string (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:8
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 14:25:24 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getSql() on string (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:8
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 14:38:21 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Bitrix\Main\DB\MysqliConnection::startTracer() (0)
+/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:3
+#0: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 14:38:50 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getTrackerQuery` for object `Bitrix\Iblock\Elements\EO_ElementDOCTORS_Collection` (0)
+/home/c/ck55016/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
+#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:20
+#1: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#2: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 14:41:25 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getTrackerQuery` for object `Bitrix\Iblock\Elements\EO_ElementDOCTORS_Collection` (0)
+/home/c/ck55016/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
+#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:20
+#1: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#2: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 14:52:05 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getName() on null (0)
+/home/c/ck55016/public_html/doctor/index.php:146
+----------
+
+[OTUS]  2025-07-20 14:57:12 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getElement` for object `Bitrix\Iblock\Elements\EO_ElementDOCTORS` (0)
+/home/c/ck55016/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
+#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:21
+#1: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#2: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 14:58:32 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getValue` for object `Bitrix\Iblock\Elements\EO_ElementSPECIALIZATION` (0)
+/home/c/ck55016/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
+#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:21
+#1: eval
+	/home/c/ck55016/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#2: require_once(string)
+	/home/c/ck55016/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+[OTUS]  2025-07-20 18:04:03 - Host: ck55016.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getName() on null (0)
+/home/c/ck55016/public_html/doctor/index.php:146
+----------
+
