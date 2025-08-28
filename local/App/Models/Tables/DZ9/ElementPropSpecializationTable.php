@@ -7,8 +7,9 @@ use Bitrix\Main\ORM\Fields\Relations\Reference;
 use Bitrix\Main\ORM\Query\Join;
 use Bitrix\Main\ORM\Fields\IntegerField;
 use Bitrix\Main\ORM\Fields\TextField;
-
-class ElementPropS22Table extends DataManager //Специализация
+use Bitrix\Main\Loader;
+Loader::includeModule('iblock');
+class ElementPropSpecializationTable extends DataManager //Специализация
 {
 	/**
 	 * Returns DB table name for entity.
@@ -17,7 +18,9 @@ class ElementPropS22Table extends DataManager //Специализация
 	 */
 	public static function getTableName()
 	{
-		return 'b_iblock_element_prop_s22';
+		$isLocation = $_SERVER['HTTP_HOST'] === '192.168.0.109:80';
+		$TableName = $isLocation ? 'b_iblock_element_prop_s22' : 'b_iblock_element_prop_s18';
+		return $TableName;
 	}
 
 	/**
@@ -27,10 +30,13 @@ class ElementPropS22Table extends DataManager //Специализация
 	 */
 	public static function getMap()
 	{
+		$isLocation = $_SERVER['HTTP_HOST'] === '192.168.0.109:80';
+		$NotesProperty = $isLocation ? 'PROPERTY_84' : 'PROPERTY_70';
+
 		return [
 			'IBLOCK_ELEMENT_ID' => (new IntegerField('IBLOCK_ELEMENT_ID',	[]))
 				->configurePrimary(true),
-			'PROPERTY_84' => (new TextField('PROPERTY_84')),
+			'NOTES' => (new TextField($NotesProperty)),
 
 			// Добавляем связь с основной таблицей элемента
 			'ELEMENT' => (new ReferenceField('ELEMENT',

@@ -30,7 +30,7 @@ class QualificationTable extends DataManager //Квалификация
 			))->configureTitle('Стаж работы')
 			,
 			//  получить по квалификации -> докторов  (new OneToMany)
-			(new OneToMany('EXPERIENCE',ElementPropS20Table::class, 'QUALIF'))
+			(new OneToMany('EXPERIENCE',ElementPropDoctorTable::class, 'QUALIF'))
 			->configureJoinType('INNER'),
 
 
